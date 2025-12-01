@@ -18,7 +18,7 @@ const Marketplace = () => {
       price: 850,
       rating: 4.5,
       reviews: 234,
-      image: 'https://images.unsplash.com/photo-1585951237318-9ea266f4a837?w=400&h=400&fit=crop',
+      image: 'https://shaktivardhakhspl.com/media/kpuhkblt/wheat-3.png?w=400&h=400&fit=crop',
       description: 'High-yield hybrid wheat seeds with superior disease resistance',
       fullDescription: 'Our premium hybrid wheat seeds are specially bred for maximum yield and disease resistance. Perfect for modern farming techniques with excellent drought tolerance.',
       specifications: {
@@ -37,7 +37,7 @@ const Marketplace = () => {
       price: 920,
       rating: 4.7,
       reviews: 189,
-      image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=400&fit=crop',
+      image: 'https://panseeds.in/wp-content/uploads/2023/02/PAN_2430.png?w=400&h=400&fit=crop',
       description: 'Certified basmati rice seeds for premium crop yield',
       fullDescription: 'Certified basmati rice seeds with long grain quality and superior aroma. Ideal for premium markets with excellent market demand.',
       specifications: {
@@ -56,7 +56,7 @@ const Marketplace = () => {
       price: 650,
       rating: 4.3,
       reviews: 156,
-      image: 'https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?w=400&h=400&fit=crop',
+      image: 'https://www.bombaysuperseeds.com/images/prod/maize/1.jpg?w=400&h=400&fit=crop',
       description: 'High-protein maize seeds suitable for all seasons',
       fullDescription: 'High-protein hybrid maize seeds suitable for both kharif and rabi seasons. Known for their adaptability and consistent performance.',
       specifications: {
@@ -75,7 +75,7 @@ const Marketplace = () => {
       price: 420,
       rating: 4.6,
       reviews: 312,
-      image: 'https://images.unsplash.com/photo-1464226184081-280282069fda?w=400&h=400&fit=crop',
+      image: 'https://organicbazar.net/cdn/shop/files/TomatoSeeds_tamatarKeBeej_1.jpg?w=400&h=400&fit=crop',
       description: 'Organic tomato seeds for vegetable farming',
       fullDescription: 'Certified organic tomato seeds producing medium-sized, disease-resistant fruits. Perfect for both commercial and home gardens.',
       specifications: {
@@ -94,7 +94,7 @@ const Marketplace = () => {
       price: 550,
       rating: 4.4,
       reviews: 198,
-      image: 'https://images.unsplash.com/photo-1599599810694-b5ac4dd64e90?w=400&h=400&fit=crop',
+      image: 'https://agriplexindia.com/cdn/shop/files/Armour-F1-Hybrid-Chilli-Seeds.png?w=400&h=400&fit=crop',
       description: 'Spicy green chilli seeds with high yield potential',
       fullDescription: 'High-yielding green chilli seeds with excellent pungency and market acceptability. Known for consistent pod setting.',
       specifications: {
@@ -115,7 +115,7 @@ const Marketplace = () => {
       price: 480,
       rating: 4.8,
       reviews: 445,
-      image: 'https://images.unsplash.com/photo-1586771724e5-c64dd64d41e6?w=400&h=400&fit=crop',
+      image: 'https://m.media-amazon.com/images/I/71dqOeTENkL.jpg?w=400&h=400&fit=crop',
       description: 'Balanced NPK fertilizer for all crops, 25kg bag',
       fullDescription: 'Premium balanced NPK fertilizer with equal nutrients suitable for all types of crops. Improves overall plant health and productivity.',
       specifications: {
@@ -134,7 +134,7 @@ const Marketplace = () => {
       price: 350,
       rating: 4.6,
       reviews: 367,
-      image: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400&h=400&fit=crop',
+      image: 'https://m.media-amazon.com/images/I/51lAGUaNsdL.jpg?w=400&h=400&fit=crop',
       description: 'Pure organic compost for soil enrichment, 20kg bag',
       fullDescription: 'Pure organic compost made from decomposed plant materials. Perfect for improving soil structure and water retention.',
       specifications: {
@@ -153,7 +153,7 @@ const Marketplace = () => {
       price: 420,
       rating: 4.5,
       reviews: 289,
-      image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?w=400&h=400&fit=crop',
+      image: 'https://www.spic.in/wp-content/uploads/2021/10/01.-BHARAT-UREA.png?w=400&h=400&fit=crop',
       description: 'High nitrogen content urea for leaf growth, 50kg bag',
       fullDescription: 'High-quality urea fertilizer with 46% nitrogen content. Best for promoting vegetative growth and green foliage.',
       specifications: {
@@ -172,7 +172,7 @@ const Marketplace = () => {
       price: 520,
       rating: 4.7,
       reviews: 278,
-      image: 'https://images.unsplash.com/photo-1599599810694-b5ac4dd64e90?w=400&h=400&fit=crop',
+      image: 'https://mahadhan.co.in/wp-content/uploads/2017/05/single-phosper-sulfate.png?w=400&h=400&fit=crop',
       description: 'Rich phosphorus fertilizer for root development, 25kg',
       fullDescription: 'Rich phosphorus fertilizer promoting strong root development and flower formation. Essential for fruit-bearing crops.',
       specifications: {
@@ -191,7 +191,7 @@ const Marketplace = () => {
       price: 450,
       rating: 4.4,
       reviews: 212,
-      image: 'https://images.unsplash.com/photo-1561566862-eae6344f7cb1?w=400&h=400&fit=crop',
+      image: 'https://www.kribhco.net/assets/img/product/bharat_mop.jpg?w=400&h=400&fit=crop',
       description: 'Potassium-rich fertilizer for fruit crops, 25kg bag',
       fullDescription: 'Potassium-rich fertilizer enhancing fruit quality and crop resilience. Ideal for all fruit and vegetable crops.',
       specifications: {
@@ -212,7 +212,7 @@ const Marketplace = () => {
       price: 2500,
       rating: 4.6,
       reviews: 156,
-      image: 'https://images.unsplash.com/photo-1585951237318-9ea266f4a837?w=400&h=400&fit=crop',
+      image: 'https://m.media-amazon.com/images/I/71wYjBv-1FL._AC_UF1000%2C1000_QL80_.jpg?w=400&h=400&fit=crop',
       description: 'Precision seed drill for efficient planting',
       fullDescription: 'Advanced manual seed drill designed for precision planting with minimal seed wastage. Adjustable for different seed sizes.',
       specifications: {
@@ -231,7 +231,7 @@ const Marketplace = () => {
       price: 380,
       rating: 4.5,
       reviews: 234,
-      image: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400&h=400&fit=crop',
+      image: 'https://m.media-amazon.com/images/I/61nvWAVzL3L.jpg?w=400&h=400&fit=crop',
       description: 'Durable hand cultivator for soil preparation',
       fullDescription: 'Heavy-duty hand cultivator with ergonomic handle design. Perfect for soil loosening and weed removal.',
       specifications: {
@@ -250,7 +250,7 @@ const Marketplace = () => {
       price: 650,
       rating: 4.7,
       reviews: 298,
-      image: 'https://images.unsplash.com/photo-1599599810694-b5ac4dd64e90?w=400&h=400&fit=crop',
+      image: 'https://m.media-amazon.com/images/I/51qKUYaRhJL.jpg?w=400&h=400&fit=crop',
       description: 'Reliable water sprayer for pesticide and fertilizer application',
       fullDescription: 'Heavy-duty 16L water sprayer with adjustable nozzle. Ideal for uniform application of pesticides and fertilizers.',
       specifications: {
@@ -269,7 +269,7 @@ const Marketplace = () => {
       price: 280,
       rating: 4.4,
       reviews: 145,
-      image: 'https://images.unsplash.com/photo-1561566862-eae6344f7cb1?w=400&h=400&fit=crop',
+      image: 'https://m.media-amazon.com/images/I/61xfzf6qT5L.jpg?w=400&h=400&fit=crop',
       description: 'Ergonomic weeder for easy weed removal',
       fullDescription: 'Ergonomically designed weeder with sharp blade for efficient weed removal. Reduces back strain during use.',
       specifications: {
@@ -288,7 +288,7 @@ const Marketplace = () => {
       price: 320,
       rating: 4.6,
       reviews: 189,
-      image: 'https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?w=400&h=400&fit=crop',
+      image: 'https://m.media-amazon.com/images/I/41IuPzDSekL.jpg?w=400&h=400&fit=crop',
       description: 'Sharp stainless steel sickle for harvesting crops',
       fullDescription: 'Professional-grade stainless steel sickle with sharp curved blade. Perfect for quick and efficient harvesting.',
       specifications: {
@@ -527,7 +527,7 @@ const Marketplace = () => {
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Contact Us</h3>
             <p className="text-sm mb-2">📧 support@agrosahayak.com</p>
-            <p className="text-sm mb-2">📞 1800-123-FARM</p>
+            {/* <p className="text-sm mb-2">📞 1800-123-FARM</p> */}
             <p className="text-sm">🕒 Available 6AM - 10PM IST</p>
           </div>
         </div>
