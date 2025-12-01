@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 function ToastItem({ id, message, type, onClose }) {
   const color = type === 'error' ? 'bg-red-600' : type === 'success' ? 'bg-green-600' : 'bg-amber-500';
   useEffect(() => {
-    const t = setTimeout(onClose, 3500);
+    const t = setTimeout(onClose, 750);
     return () => clearTimeout(t);
   }, [onClose]);
 
