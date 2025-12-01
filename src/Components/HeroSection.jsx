@@ -1,4 +1,4 @@
-import BgImage from "../assets/Bg.jpg";
+import BgImage from "../assets/BG.jpg";
 function HeroSection() {
   return (
     <section

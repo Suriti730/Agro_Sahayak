@@ -1,5 +1,5 @@
 import React from "react";
-import BgImage from "../assets/Bg.jpg";
+import BgImage from "../assets/BG.jpg";
 import { Link } from 'react-router-dom';
 
 const BuySell = () =>{
