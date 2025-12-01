@@ -9,7 +9,7 @@ function Navbar() {
       
       {/* Logo */}
       <div className="flex items-center gap-2">
-        <img src="/src/logo.png" alt="logo" className="h-8" />
+        <img src="/logo.png" alt="logo" className="h-8" />
         <span className="text-xl font-semibold text-green-800">Agro Sahayak</span>
       </div>
 

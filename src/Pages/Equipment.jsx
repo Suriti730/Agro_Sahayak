@@ -139,7 +139,7 @@ const Equipment = () => {
             {/* Left: Logo and Description */}
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-3">
-                <img src="/src/logo.png" alt="logo" className="h-8" />
+                <img src="/logo.png" alt="logo" className="h-8" />
                 <span className="text-xl font-semibold text-green-400">Agro Sahayak</span>
               </div>
               <p className="text-sm text-gray-400">Your digital agriculture assistant for better yield, profits & sustainability</p>
