@@ -70,6 +70,7 @@ function Navbar() {
 
      {/* Right Side Buttons */}
 <div className="flex items-center gap-4">
+
   {/* Language Dropdown */}
   {/* <div className="relative text-gray-700 font-medium cursor-pointer hidden md:block">
     <select className="appearance-none bg-transparent pr-5 cursor-pointer">

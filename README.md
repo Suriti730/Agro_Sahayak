@@ -85,14 +85,6 @@ The target audience for AgriSahayak:
 ---
 
 
-### 7️⃣ Crop Insurance
-
-- **IRDA-integrated Insurance Access:**  
-  - Apply and upload claim documents  
-  - AI chatbot and human support  
-
-📷 ![Crop Insurance Screenshot](src/assets/insurance.png)
-
 ---
 
 ### 8️⃣ Weather Forecasting
