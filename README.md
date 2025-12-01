@@ -1,11 +1,11 @@
 
-# 🌾 AgriSahayak
+# 🌾 AgroSahayak
 
 ## 🚜 Problem Statement
 
 India’s farmers face a wide range of persistent challenges including poor access to reliable crop planning tools, soil testing, affordable farming equipment, trustworthy marketplaces, and transparent connections with buyers or government schemes. Many digital solutions exist in silos, but none offer a unified, easy-to-use, multilingual platform tailored specifically for farmers’ day-to-day needs.
 
-**AgriSahayak** addresses this gap by offering a one-stop, accessible, and intelligent web-based solution that empowers farmers with data-driven decisions, digital commerce, service accessibility, and real-time information — all in regional languages with voice support.
+**AgroSahayak** addresses this gap by offering a one-stop, accessible, and intelligent web-based solution that empowers farmers with data-driven decisions, digital commerce, service accessibility, and real-time information — all in regional languages with voice support.
 
 ---
 
