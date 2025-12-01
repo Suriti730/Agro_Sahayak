@@ -1,7 +1,7 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Home from "./pages/home";
-import CropAdvisor from "./Pages/cropadvisor";
+import Home from "./Pages/Home";
+import CropAdvisor from "./Pages/CropAdvisor";
 import SoilTesting from "./Pages/SoilTesting";
 import SellCrop from "./Pages/SellCrop";
 import Equipment from "./Pages/Equipment";
