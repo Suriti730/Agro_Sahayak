@@ -89,7 +89,7 @@ const Body = () => {
       title: "Mandi Price",
       description: "Check real-time crop prices",
       buttonText: "Check Prices",
-      buttonLink: "/equipment"
+      buttonLink: "/mandi"
     },
    
     {

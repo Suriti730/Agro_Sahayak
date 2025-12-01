@@ -71,14 +71,14 @@ function Navbar() {
      {/* Right Side Buttons */}
 <div className="flex items-center gap-4">
   {/* Language Dropdown */}
-  <div className="relative text-gray-700 font-medium cursor-pointer hidden md:block">
+  {/* <div className="relative text-gray-700 font-medium cursor-pointer hidden md:block">
     <select className="appearance-none bg-transparent pr-5 cursor-pointer">
       <option value="EN">EN</option>
       <option value="PA">ਪੰਜਾਬੀ</option>
       <option value="HI">हिंदी</option>
     </select>
     <span className="absolute right-0 top-1 text-xs pointer-events-none">▼</span>
-  </div>
+  </div> */}
 
   {/* Login / Signup */}
   <SignedOut>
