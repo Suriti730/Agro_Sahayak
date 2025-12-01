@@ -1,5 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./Components/Navbar";
+import Toaster from "./Components/Toaster";
 import Home from "./Pages/Home";
 import CropAdvisor from "./Pages/CropAdvisor";
 import SoilTesting from "./Pages/SoilTesting";
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       {location.pathname !== '/admin' && <Navbar />}
+      <Toaster />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/crop-advisor" element={<CropAdvisor/>} />

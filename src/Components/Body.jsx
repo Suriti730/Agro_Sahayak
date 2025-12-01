@@ -166,7 +166,8 @@ const Body = () => {
 
   return (
     <>
-      {/* Services Section */}
+      {/* Services Section (visible only when signed in) */}
+      <SignedIn>
       <section id="services" className="py-16 px-4 max-w-7xl mx-auto">
         <h2 className="text-3xl font-semibold text-gray-800 text-center mb-12">What Can You Do With Agro Sahayak?</h2>
         
@@ -189,7 +190,7 @@ const Body = () => {
         </div>
       </section>
 
-      {/* Weather Widget */}
+      {/* Weather Widget (visible only when signed in) */}
       <section className="max-w-7xl mx-auto px-4 mb-16">
         <div className="bg-green-50 rounded-lg p-6">
           {loading ? (
@@ -225,6 +226,7 @@ const Body = () => {
           ) : null}
         </div>
       </section>
+      </SignedIn>
 
 {/*       
       <section className="max-w-7xl mx-auto px-4 mb-16">
