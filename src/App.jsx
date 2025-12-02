@@ -10,6 +10,7 @@ import Weather from "./Pages/Weather";
 import BuySell from "./Pages/BuySell";
 import Mandi from "./Pages/Mandi";
 import Marketplace from "./Pages/marketplace";
+import AddToCart from "./Pages/AddToCart";
 import Admin from "./Pages/Admin";
 
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/buysell" element={<BuySell />} />
         <Route path="/mandi" element={<Mandi />} />
         <Route path="/marketplace" element={<Marketplace />} />
+        <Route path="/cart" element={<AddToCart />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
     </div>

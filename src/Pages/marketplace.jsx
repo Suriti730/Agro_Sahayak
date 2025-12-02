@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { addItem } from '../lib/cart';
 import { Heart, Search, Star, X } from 'lucide-react';
 
 const Marketplace = () => {
@@ -7,6 +9,7 @@ const Marketplace = () => {
   const [wishlist, setWishlist] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [quantity, setQuantity] = useState(1);
+  const navigate = useNavigate();
 
   // Products database with seeds, fertilizers, and tools
   const products = [
@@ -616,8 +619,10 @@ const Marketplace = () => {
                   {/* Buy Button */}
                   <button
                     onClick={() => {
-                      alert(`Added ${quantity} ${selectedProduct.name}(s) to cart! Total: ₹${selectedProduct.price * quantity}`);
+                      // add selected product to cart and redirect to cart page
+                      addItem(selectedProduct, quantity);
                       setSelectedProduct(null);
+                      navigate('/cart');
                     }}
                     disabled={selectedProduct.stock === 0}
                     className={`w-full py-3 rounded-lg font-bold text-white transition text-lg ${
