@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
+import React, { useEffect, useState } from 'react';
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
+import { ShoppingCart } from 'lucide-react';
+import { totalCount, subscribe } from '../lib/cart';
 import { showToast } from '../lib/toast';
 
 
@@ -122,12 +125,40 @@ function Navbar() {
           </SignInButton>
         </SignedOut>
 
-        {/* User Profile */}
+        {/* User Profile + Cart (signed-in only) */}
         <SignedIn>
-          <UserButton afterSignOutUrl="/" />
+          <SignedInInner />
         </SignedIn>
       </div>
     </nav>
+  );
+}
+
+function SignedInInner() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    try {
+      setCount(totalCount());
+      const unsub = subscribe((newCart) => {
+        setCount((newCart || []).reduce((s, i) => s + (i.qty || 0), 0));
+      });
+      return () => unsub && unsub();
+    } catch (e) {
+      // if cart helper not available, skip
+    }
+  }, []);
+
+  return (
+    <div className="flex items-center gap-5">
+      {count > 0 && (
+        <Link to="/cart" className="relative p-2 rounded hover:bg-white hidden md:inline-flex items-center">
+          <ShoppingCart className="w-5 h-5 text-gray-700" />
+          <span className="absolute -top-1 -right-1 bg-red-600 text-white rounded-full px-1 text-xs">{count}</span>
+        </Link>
+      )}
+      <UserButton afterSignOutUrl="/" />
+    </div>
   );
 }
 
