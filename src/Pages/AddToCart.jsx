@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Plus, Minus, X } from 'lucide-react';
 import { Truck, CreditCard, Tag } from 'lucide-react';
 import { getCart, updateQty, removeItem, clearCart } from '../lib/cart';
+import { useNavigate } from 'react-router-dom';
 
 export default function AddToCart() {
   const [items, setItems] = useState([]);
@@ -18,6 +19,8 @@ export default function AddToCart() {
   const dec = (id) => setItems(updateQty(id, (items.find(i=>i.id===id)?.qty||1) - 1));
   const remove = (id) => setItems(removeItem(id));
   const clearAll = () => { if (confirm('Clear cart?')) { clearCart(); setItems([]); } };
+
+  const navigate = useNavigate();
 
   const subtotal = items.reduce((s, it) => s + it.price * it.qty, 0);
   const shipping = subtotal > 5000 ? 0 : (items.length ? 99 : 0);
@@ -117,7 +120,7 @@ export default function AddToCart() {
                     {/* <div className="flex items-center gap-2 px-3 py-2 border rounded-lg text-sm text-gray-700">Netbanking</div> */}
                   </div>
 
-                  <button onClick={() => alert('Checkout not implemented (demo)')} className="w-full inline-flex items-center justify-center gap-3 bg-gradient-to-r from-green-600 to-emerald-500 text-white px-4 py-3 rounded-lg shadow-lg hover:opacity-95 font-bold">Secure Checkout</button>
+                  <button onClick={() => navigate('/checkout')} className="w-full inline-flex items-center justify-center gap-3 bg-gradient-to-r from-green-600 to-emerald-500 text-white px-4 py-3 rounded-lg shadow-lg hover:opacity-95 font-bold">Secure Checkout</button>
                 </div>
 
                 <div className="mt-4 text-xs text-gray-400">Need more help? Call our support at <strong>1800-123-FARM</strong></div>
