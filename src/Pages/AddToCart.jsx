@@ -112,9 +112,9 @@ export default function AddToCart() {
                 <div className="pt-1">
                   <div className="mb-3 text-xs font-semibold text-gray-600">Payment</div>
                   <div className="flex gap-2 items-center mb-4 flex-wrap">
-                    <div className="flex items-center gap-2 px-3 py-2 border rounded-lg text-sm text-gray-700"><CreditCard size={16}/> Debit / Credit</div>
+                    {/* <div className="flex items-center gap-2 px-3 py-2 border rounded-lg text-sm text-gray-700"><CreditCard size={16}/> Debit / Credit</div> */}
                     <div className="flex items-center gap-2 px-3 py-2 border rounded-lg text-sm text-gray-700">Cash On Delivery</div>
-                    <div className="flex items-center gap-2 px-3 py-2 border rounded-lg text-sm text-gray-700">Netbanking</div>
+                    {/* <div className="flex items-center gap-2 px-3 py-2 border rounded-lg text-sm text-gray-700">Netbanking</div> */}
                   </div>
 
                   <button onClick={() => alert('Checkout not implemented (demo)')} className="w-full inline-flex items-center justify-center gap-3 bg-gradient-to-r from-green-600 to-emerald-500 text-white px-4 py-3 rounded-lg shadow-lg hover:opacity-95 font-bold">Secure Checkout</button>
